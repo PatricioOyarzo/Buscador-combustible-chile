@@ -22,5 +22,6 @@ jobs:
 
      - name: Instalar dependencias
        run: pip install requests fastapi uvicorn pytest
+       
      - name: Correr pruebas
-       run: pytest test_buscador.py -v
+       run: python -m pytest test_buscador.py -v
